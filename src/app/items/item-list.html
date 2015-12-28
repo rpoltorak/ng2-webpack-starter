@@ -3,10 +3,12 @@
 		<th>id</th>
 		<th>name</th>
 		<th>description</th>
+        <th>action</th>
 	</tr>
 	<tr *ngFor="var item of items">
 		<td>{{item.id}}</td>
 		<td>{{item.name}}</td>
 		<td>{{item.description}}</td>
+        <td><button class="btn btn-primary" (click)="remove(item.id)">Remove</button></td>
 	</tr>
 </table>
