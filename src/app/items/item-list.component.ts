@@ -10,7 +10,7 @@ import {IItem, Item} from './item';
 export class ItemList {
     public items: IItem[];
     
-    public remove(id: number): IItem {
+    public remove(id: number): void {
         let i: number = this.items.length;
         
         while(i--) {
@@ -18,7 +18,7 @@ export class ItemList {
             
             if (item.id === id) {
                 this.items.splice(i, 1);
-                return item;    
+                return;    
             }
         }
     }
