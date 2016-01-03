@@ -1,7 +1,7 @@
 {
-  "name": "typescript-starter",
+  "name": "ng2-starter",
   "version": "1.0.0",
-  "description": "Simple starter for Typescript apps",
+  "description": "Simple starter for Angular 2 apps",
   "main": "app.ts",
   "scripts": {
     "start": "webpack-dev-server -d --progress --colors"
@@ -21,9 +21,9 @@
   "author": "Remek Poltorak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rpoltorak/typescript-starter/issues"
+    "url": "https://github.com/rpoltorak/ng2-starter/issues"
   },
-  "homepage": "https://github.com/rpoltorak/typescript-starter#readme",
+  "homepage": "https://github.com/rpoltorak/ng2-starter#readme",
   "dependencies": {
     "angular2": "2.0.0-beta.0",
     "rxjs": "5.0.0-beta.0"
